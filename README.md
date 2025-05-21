@@ -1,0 +1,1 @@
+O Hub Educacional é uma página web que organiza recursos educacionais digitais. Esta plataforma foi projetada para facilitar o acesso a diversos materiais didáticos interativos, como jogos, quizzes, histórias em quadrinhos e ferramentas de aprendizagem.
