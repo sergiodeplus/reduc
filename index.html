@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub Educacional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hub Educacional</h1>
+            <p>Recursos educacionais organizados por séries e disciplinas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Pesquisar recursos...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="6">6º Ano</button>
+                <button class="filter-btn" data-filter="7">7º Ano</button>
+                <button class="filter-btn" data-filter="8">8º Ano</button>
+                <button class="filter-btn" data-filter="9">9º Ano</button>
+                <button class="filter-btn" data-filter="coringa">Recursos Gerais</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- 6º Ano -->
+        <section class="grade-section" id="grade-6">
+            <h2>6º Ano</h2>
+            
+            <div class="category">
+                <h3>História</h3>
+                <div class="resources">
+                    <a href="https://dev5.neocities.org/quizmeso" class="resource-card" data-tags="história quiz mesopotâmia 6">
+                        <div class="card-icon"><i class="fas fa-question-circle"></i></div>
+                        <div class="card-content">
+                            <h4>Quiz Mesopotâmia</h4>
+                            <p>Teste seus conhecimentos sobre a Mesopotâmia</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://dev5.neocities.org/6/gilgamesh" class="resource-card" data-tags="história gilgamesh mesopotâmia 6">
+                        <div class="card-icon"><i class="fas fa-book"></i></div>
+                        <div class="card-content">
+                            <h4>Gilgamesh</h4>
+                            <p>Conheça a Epopeia de Gilgamesh</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://dev5.neocities.org/6/mapainterativo" class="resource-card" data-tags="história mapa interativo 6">
+                        <div class="card-icon"><i class="fas fa-map"></i></div>
+                        <div class="card-content">
+                            <h4>Mapa Interativo</h4>
+                            <p>Explore mapas históricos de forma interativa</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://dev5.neocities.org/6/povos" class="resource-card" data-tags="história povos antigos 6">
+                        <div class="card-icon"><i class="fas fa-users"></i></div>
+                        <div class="card-content">
+                            <h4>Povos Antigos</h4>
+                            <p>Conheça os povos da antiguidade</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/antigoegito/" class="resource-card" data-tags="história egito antigo 6">
+                        <div class="card-icon"><i class="fas fa-landmark"></i></div>
+                        <div class="card-content">
+                            <h4>Antigo Egito</h4>
+                            <p>Recursos sobre a civilização egípcia</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/gamezigurate/" class="resource-card" data-tags="história zigurate jogo 6">
+                        <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="card-content">
+                            <h4>Game Zigurate</h4>
+                            <p>Jogo educativo sobre zigurates</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://v0-aprimorar-rpg.vercel.app/" class="resource-card" data-tags="história rpg 6">
+                        <div class="card-icon"><i class="fas fa-dice-d20"></i></div>
+                        <div class="card-content">
+                            <h4>RPG Histórico</h4>
+                            <p>Jogo de RPG com temática histórica</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://rpgcivilizacoes.netlify.app/" class="resource-card" data-tags="história rpg civilizações 6">
+                        <div class="card-icon"><i class="fas fa-dice-d20"></i></div>
+                        <div class="card-content">
+                            <h4>RPG Civilizações</h4>
+                            <p>Jogo de RPG sobre civilizações antigas</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://v0-rpg-game-remake.vercel.app/" class="resource-card" data-tags="história rpg egito 6">
+                        <div class="card-icon"><i class="fas fa-dice-d20"></i></div>
+                        <div class="card-content">
+                            <h4>RPG Egito</h4>
+                            <p>Jogo de RPG ambientado no Egito Antigo</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://same-vu0jgchhah0-latest.netlify.app" class="resource-card" data-tags="história forca mesopotâmia 6">
+                        <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="card-content">
+                            <h4>Forca Mesopotâmia</h4>
+                            <p>Jogo da forca com temática da Mesopotâmia</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/novastrilhas/trilhas" class="resource-card" data-tags="história trilhas digitais 6">
+                        <div class="card-icon"><i class="fas fa-road"></i></div>
+                        <div class="card-content">
+                            <h4>Trilhas Digitais de História</h4>
+                            <p>Trilhas de aprendizagem para o 6º ano</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h3>Língua Portuguesa</h3>
+                <div class="resources">
+                    <a href="https://web2.nekoweb.org/comentlitera/" class="resource-card" data-tags="português literatura comentários 6">
+                        <div class="card-icon"><i class="fas fa-comment-alt"></i></div>
+                        <div class="card-content">
+                            <h4>Comentários Literários</h4>
+                            <p>Plataforma para comentários sobre literatura</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/diariodebordo/" class="resource-card" data-tags="português diário bordo 6">
+                        <div class="card-icon"><i class="fas fa-book-open"></i></div>
+                        <div class="card-content">
+                            <h4>Diário de Bordo</h4>
+                            <p>Ferramenta para criação de diários de leitura</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://poesianaescoa.netlify.app/" class="resource-card" data-tags="português poesia poetrix 6">
+                        <div class="card-icon"><i class="fas fa-feather-alt"></i></div>
+                        <div class="card-content">
+                            <h4>Poetrix</h4>
+                            <p>Plataforma para criação e compartilhamento de poesias</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/lpt/literosfera" class="resource-card" data-tags="português literatura literosfera 6">
+                        <div class="card-icon"><i class="fas fa-book"></i></div>
+                        <div class="card-content">
+                            <h4>Literosfera</h4>
+                            <p>Ambiente virtual de literatura</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://educ.nekoweb.org/gamequiz.html" class="resource-card" data-tags="português quiz gêneros textuais 6">
+                        <div class="card-icon"><i class="fas fa-question-circle"></i></div>
+                        <div class="card-content">
+                            <h4>Quiz Gêneros Textuais</h4>
+                            <p>Teste seus conhecimentos sobre gêneros textuais</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h3>Ferramentas Gerais</h3>
+                <div class="resources">
+                    <a href="https://web2.nekoweb.org/novastrilhas/cal" class="resource-card" data-tags="calendário 2025 6">
+                        <div class="card-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="card-content">
+                            <h4>Calendário 2025</h4>
+                            <p>Calendário escolar para planejamento de atividades</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 7º Ano -->
+        <section class="grade-section" id="grade-7">
+            <h2>7º Ano</h2>
+            
+            <div class="category">
+                <h3>História</h3>
+                <div class="resources">
+                    <a href="https://web2.nekoweb.org/apprenascenca/" class="resource-card" data-tags="história renascença 7">
+                        <div class="card-icon"><i class="fas fa-palette"></i></div>
+                        <div class="card-content">
+                            <h4>Renascença</h4>
+                            <p>Aplicativo sobre o período do Renascimento</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://educ.nekoweb.org/hqafrica7ano/index.html" class="resource-card" data-tags="história hq áfrica 7">
+                        <div class="card-icon"><i class="fas fa-book-reader"></i></div>
+                        <div class="card-content">
+                            <h4>HQ África - O Guardião das Histórias</h4>
+                            <p>História em quadrinhos sobre um Griot no Império do Mali</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/novastrilhas/trilhas" class="resource-card" data-tags="história trilhas digitais 7">
+                        <div class="card-icon"><i class="fas fa-road"></i></div>
+                        <div class="card-content">
+                            <h4>Trilhas Digitais de História</h4>
+                            <p>Trilhas de aprendizagem para o 7º ano</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 8º Ano -->
+        <section class="grade-section" id="grade-8">
+            <h2>8º Ano</h2>
+            
+            <div class="category">
+                <h3>História</h3>
+                <div class="resources">
+                    <a href="https://nekoweb.org/dashboard/?path=%2Fjornal&site=web2" class="resource-card" data-tags="história jornal 8">
+                        <div class="card-icon"><i class="fas fa-newspaper"></i></div>
+                        <div class="card-content">
+                            <h4>Jornal</h4>
+                            <p>Criação de jornais históricos</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/quizRI/" class="resource-card" data-tags="história revolução industrial quiz 8">
+                        <div class="card-icon"><i class="fas fa-industry"></i></div>
+                        <div class="card-content">
+                            <h4>Quiz Revolução Industrial</h4>
+                            <p>Teste seus conhecimentos sobre a Revolução Industrial</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/RPGCIV/escaperoom" class="resource-card" data-tags="história escape room 8">
+                        <div class="card-icon"><i class="fas fa-door-open"></i></div>
+                        <div class="card-content">
+                            <h4>Escape Room</h4>
+                            <p>Jogo de escape room com temática histórica</p>
+                        </div>
+                    </a>
+                    
+                    <a href="http://remar.dc.ufscar.br/published/608ef5832ab79c0001c5a9a4/web/" class="resource-card" data-tags="história forca 8">
+                        <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="card-content">
+                            <h4>Jogo da Forca</h4>
+                            <p>Jogo da forca com temática histórica</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://app--revolucao-a-era-das-maquinas-f4204591.base44.app" class="resource-card" data-tags="história rpg revolução industrial 8">
+                        <div class="card-icon"><i class="fas fa-dice-d20"></i></div>
+                        <div class="card-content">
+                            <h4>RPG Era das Máquinas</h4>
+                            <p>Jogo de RPG sobre a Revolução Industrial</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://mellow-chebakia-116d66.netlify.app" class="resource-card" data-tags="história rpg 8">
+                        <div class="card-icon"><i class="fas fa-dice-d20"></i></div>
+                        <div class="card-content">
+                            <h4>RPG Histórico</h4>
+                            <p>Jogo de RPG com temática histórica</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://educ.nekoweb.org/revfran8ano/revfranc.html" class="resource-card" data-tags="história hq revolução francesa 8">
+                        <div class="card-icon"><i class="fas fa-book-reader"></i></div>
+                        <div class="card-content">
+                            <h4>HQ Revolução Francesa</h4>
+                            <p>História em quadrinhos sobre a Revolução Francesa</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/novastrilhas/trilhas" class="resource-card" data-tags="história trilhas digitais 8">
+                        <div class="card-icon"><i class="fas fa-road"></i></div>
+                        <div class="card-content">
+                            <h4>Trilhas Digitais de História</h4>
+                            <p>Trilhas de aprendizagem para o 8º ano</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 9º Ano -->
+        <section class="grade-section" id="grade-9">
+            <h2>9º Ano</h2>
+            
+            <div class="category">
+                <h3>História</h3>
+                <div class="resources">
+                    <a href="https://web2.nekoweb.org/appIIguerra/sgm" class="resource-card" data-tags="história segunda guerra mundial 9">
+                        <div class="card-icon"><i class="fas fa-fighter-jet"></i></div>
+                        <div class="card-content">
+                            <h4>Segunda Guerra Mundial</h4>
+                            <p>Aplicativo sobre a Segunda Guerra Mundial</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://educ.nekoweb.org/revrussa/flip9.html" class="resource-card" data-tags="história revolução russa 9">
+                        <div class="card-icon"><i class="fas fa-book-reader"></i></div>
+                        <div class="card-content">
+                            <h4>Revolução Russa de 1917</h4>
+                            <p>História em quadrinhos sobre a Revolução Russa</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/novastrilhas/resultado_debate" class="resource-card" data-tags="história debate multimídia 9">
+                        <div class="card-icon"><i class="fas fa-comments"></i></div>
+                        <div class="card-content">
+                            <h4>Debate Multimídia - História</h4>
+                            <p>Recurso de áudio para debates históricos</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/novastrilhas/trilhas" class="resource-card" data-tags="história trilhas digitais 9">
+                        <div class="card-icon"><i class="fas fa-road"></i></div>
+                        <div class="card-content">
+                            <h4>Trilhas Digitais de História</h4>
+                            <p>Trilhas de aprendizagem para o 9º ano</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Recursos Gerais (Coringa) -->
+        <section class="grade-section" id="grade-coringa">
+            <h2>Recursos Gerais</h2>
+            
+            <div class="category">
+                <h3>Ferramentas Multidisciplinares</h3>
+                <div class="resources">
+                    <a href="https://web2.nekoweb.org/debate/online" class="resource-card" data-tags="debate coringa">
+                        <div class="card-icon"><i class="fas fa-comments"></i></div>
+                        <div class="card-content">
+                            <h4>Debate Online</h4>
+                            <p>Plataforma para debates educacionais</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://app--quiz-master-5b3ad16a.base44.app/" class="resource-card" data-tags="quiz maker coringa">
+                        <div class="card-icon"><i class="fas fa-question-circle"></i></div>
+                        <div class="card-content">
+                            <h4>Quiz Maker</h4>
+                            <p>Ferramenta para criação de quizzes</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://v0-kialo-edu-clone.vercel.app/" class="resource-card" data-tags="debate estruturado coringa">
+                        <div class="card-icon"><i class="fas fa-comments"></i></div>
+                        <div class="card-content">
+                            <h4>Debate Estruturado</h4>
+                            <p>Plataforma para debates estruturados</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://app--quest-saber-df09c66f.base44.app/Dashboard" class="resource-card" data-tags="rpg coringa">
+                        <div class="card-icon"><i class="fas fa-dice-d20"></i></div>
+                        <div class="card-content">
+                            <h4>Quest Saber</h4>
+                            <p>RPG educacional</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://v0-tree-comment-app.vercel.app/login?role=teacher" class="resource-card" data-tags="lpt comentários coringa">
+                        <div class="card-icon"><i class="fas fa-comment-alt"></i></div>
+                        <div class="card-content">
+                            <h4>Árvore de Comentários</h4>
+                            <p>Ferramenta para comentários estruturados</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://v0-aprimorar-codigo.vercel.app/" class="resource-card" data-tags="código programação coringa">
+                        <div class="card-icon"><i class="fas fa-code"></i></div>
+                        <div class="card-content">
+                            <h4>Aprimorar Código</h4>
+                            <p>Ferramenta para aprendizado de programação</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://mesopotamia2.vercel.app/" class="resource-card" data-tags="chat mesopotâmia coringa">
+                        <div class="card-icon"><i class="fas fa-comment"></i></div>
+                        <div class="card-content">
+                            <h4>Chat Mesopotâmia</h4>
+                            <p>Chat educativo sobre a Mesopotâmia</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://educast-kappa.vercel.app/" class="resource-card" data-tags="podcast criador coringa">
+                        <div class="card-icon"><i class="fas fa-microphone"></i></div>
+                        <div class="card-content">
+                            <h4>Criador de Podcast</h4>
+                            <p>Ferramenta para criação de podcasts educativos</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://zonaeducacional.github.io/podcast/" class="resource-card" data-tags="podcast github coringa">
+                        <div class="card-icon"><i class="fas fa-microphone-alt"></i></div>
+                        <div class="card-content">
+                            <h4>Podcast GitHub</h4>
+                            <p>Plataforma de podcasts educacionais</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://web2.nekoweb.org/novastrilhas/cal" class="resource-card" data-tags="calendário 2025 coringa">
+                        <div class="card-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="card-content">
+                            <h4>Calendário 2025</h4>
+                            <p>Calendário escolar para planejamento de atividades</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hub Educacional. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
